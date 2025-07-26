@@ -1,5 +1,5 @@
 
-# ACE Face Detection - YOLOv5 Custom
+# Face Detection - YOLOv5 Custom
 
 This repository demonstrates a custom face detection pipeline using a YOLOv5 model trained on manually annotated facial images. The goal is to detect faces in diverse conditions (indoor/outdoor, spoof/real/props) and save cropped face regions along with detection metadata into an Excel sheet.
 
@@ -10,15 +10,14 @@ The figure below shows an example of:
 - Face detection bounding box using YOLOv5
 - Cropped face result
 
-![Example Output](assests/example_output.png)
+![Example Output](assets/example_output.png)
 
 ---
 
 ## 📦 Project Goal
 
-- Train YOLOv5 on custom face data (758 manually annotated images).
 - Detect faces from structured image folders containing subject and session metadata.
-- Crop detected faces and store them.
+- Crop detected faces using custom trained yolov5 model and store them.
 - Generate a detailed Excel output with filename-based metadata and detection results.
 
 ---
