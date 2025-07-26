@@ -1,0 +1,26 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output folders
+output/
+*.xlsx
+
+# PyTorch Hub cache
+~/.cache/torch/hub/
